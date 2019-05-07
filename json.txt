@@ -1,0 +1,10 @@
+JSON Installation
+
+	npm install --save-dev json-server@0.12.1
+	npm install --save-dev jsonwebtoken@8.1.1
+
+	Inside package.json 
+	
+	"json": "json-server data.js -p 3500 -m authMiddleware.js"
+
+	
